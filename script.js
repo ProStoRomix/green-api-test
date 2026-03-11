@@ -1,4 +1,3 @@
-// Оставляем ОДНУ функцию получения данных
 function creds() {
     return {
         id: document.getElementById("idInstance").value,
@@ -35,7 +34,7 @@ async function getState() {
 async function sendMessage() {
     const { id, token } = creds();
     const body = {
-        chatId: `${document.getElementById("phone").value}@c.us`, // Добавляем суффикс, если его нет
+        chatId: `${document.getElementById("phone").value}@c.us`,
         message: document.getElementById("message").value
     };
 
