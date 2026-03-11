@@ -84,3 +84,12 @@ body:JSON.stringify(body)
 show(await res.json())
 
 }
+
+function creds(){
+
+return{
+id:window.CONFIG.idInstance,
+token:window.CONFIG.apiToken
+}
+
+}
