@@ -1,0 +1,6 @@
+window.CONFIG = {
+
+idInstance: "",
+apiToken: ""
+
+}
